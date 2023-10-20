@@ -14,7 +14,7 @@ const ContractModal = ({ isModalOpen, setIsModalOpen }) => {
     await provider.send("eth_requestAccounts", []);
     const signer = await provider.getSigner();
     const erc20 = new ethers.Contract(
-      "0x589358843244d824D591d1e60Ee6d3A9C94355a8",
+      "0xf8f94c334e6f8836fe6a00d874edaaea17c07000",
       nftabi,
       signer
     );
@@ -58,7 +58,7 @@ const ContractModal = ({ isModalOpen, setIsModalOpen }) => {
             <div className="m-4 credit-card w-full lg:w-3/4 sm:w-auto shadow-lg mx-auto rounded-xl bg-white">
               <div className="mt-4 p-4">
                 <h1 className="text-xl font-semibold text-gray-700 text-center">
-                  InternVerse NFT
+                  internverse NFT
                 </h1>
 
                 <form className="p-5" onSubmit={handleSubmit}>

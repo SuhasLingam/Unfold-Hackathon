@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="text-3xl font-bold">
           <span style={{ fontFamily: "PilatExtended" }}>
             <Gradient dir="left-to-right" from="#F9AC21" to="#6B17EC">
-              InternVERSE
+              InternGROW
             </Gradient>
           </span>
         </div>

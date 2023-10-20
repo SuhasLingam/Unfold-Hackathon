@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillCloseSquare } from "react-icons/ai";
 import Modal from "react-modal";
-import InternverseGradient from "./InternverseGradient";
+import internverseGradient from "./internverseGradient";
 import Image from "next/image";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Router from "next/router";
@@ -35,7 +35,7 @@ const IndexModal = ({ isModalOpen, setIsModalOpen }) => {
           style={{ fontFamily: "PilatExtended" }}
           className={styles.headerTitle}
         >
-          Why to hire from <InternverseGradient /> ?
+          Why to hire from <internverseGradient /> ?
         </div>
         <div className="">
           <ProgressCard
