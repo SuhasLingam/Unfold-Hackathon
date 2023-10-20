@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import internverseGradient from "../components/internverseGradient";
+//import internverseGradient from "../components/internverseGradient";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { AiFillCheckCircle } from "react-icons/ai";
 import Gradient from "rgt";
