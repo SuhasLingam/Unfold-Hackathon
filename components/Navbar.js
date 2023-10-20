@@ -18,7 +18,7 @@ const Navbar = ({ connectWallet, walletAddress }) => {
   const path = Router.pathname;
   return (
     <div className={styles.wrapper}>
-      <div className="mx-5 p-5 mb-4 flex flex justify-between items-center">
+      <div className="mx-5 p-5 mb-4 flex justify-between items-center">
         <div className={styles.left}>
           <div
             onClick={() => Router.push("/")}
